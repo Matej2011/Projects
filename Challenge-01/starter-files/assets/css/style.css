@@ -1,0 +1,214 @@
+body {
+  background-color: #6f84ff;
+  margin: 0;
+  padding: 0;
+}
+
+.section-one img {
+  max-width: 30px;
+  float: left;
+  margin-left: 10%;
+  margin-top: 10px;
+}
+
+.section-two {
+  margin-top: 10px;
+  width: 35%;
+  float: right;
+}
+
+.section-two a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.section-three {
+  clear: both;
+}
+
+.section-three img {
+  max-width: 500px;
+  margin-left: 30%;
+  margin-top: 20px;
+}
+
+i {
+  font-size: 50px;
+  margin-top: 10px;
+}
+
+.del1 {
+  background-color: #e5d6b7;
+  float: left;
+  width: 25%;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.del2 {
+  background-color: #be8553;
+  float: left;
+  width: 25%;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.del3 {
+  background-color: #66cdaa;
+  float: left;
+  width: 25%;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.del4 {
+  background-color: #c8bddd;
+  float: left;
+  width: 25%;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.del5 {
+  background-color: #bdd7ed;
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+.del5 img {
+  max-width: 200px;
+  padding-top: 37px;
+  padding-bottom: 24px;
+}
+
+.del6 {
+  background-color: #c8bddd;
+  color: white;
+  text-align: center;
+  float: left;
+  width: 50%;
+}
+
+.del6 p {
+  padding: 49px;
+}
+
+.del7 {
+  background-color: #be8553;
+  color: white;
+  text-align: center;
+  float: left;
+  width: 50%;
+}
+
+.del7 p {
+  padding: 52px;
+}
+
+.del8 img {
+  max-width: 200px;
+  padding-top: 33px;
+  padding-bottom: 16px;
+}
+
+.del8 {
+  background-color: #bdd7ed;
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+.del9 img {
+  max-width: 200px;
+  padding-top: 37px;
+  padding-bottom: 30px;
+}
+
+.del9 {
+  background-color: #bdd7ed;
+  float: left;
+  width: 50%;
+  text-align: center;
+  padding-bottom: 4px;
+}
+
+.del10 {
+  background-color: #f2a98c;
+  color: white;
+  text-align: center;
+  float: left;
+  width: 50%;
+}
+
+.del10 p {
+  padding: 43px;
+}
+
+.tret-del {
+  clear: both;
+}
+
+.del11 {
+  float: left;
+  width: 33%;
+  text-align: center;
+  background-color: #c8bddd;
+}
+
+.del11 p {
+  color: white;
+  font-size: x-small;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.del12 {
+  float: left;
+  width: 34%;
+  text-align: center;
+  background-color: #be8553;
+}
+
+.del12 p {
+  color: white;
+  font-size: x-small;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.del13 {
+  float: left;
+  width: 33%;
+  text-align: center;
+  background-color: #66cdaa;
+}
+
+.del13 p {
+  color: white;
+  font-size: x-small;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.cetvrti-del {
+  clear: both;
+}
+
+.cetvrti-del i {
+  color: white;
+  font-size: 30px;
+  margin: 125px;
+}
+
+.petti-del {
+  background-color: rgb(112, 46, 112);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+a:hover {
+  color: grey;
+}
