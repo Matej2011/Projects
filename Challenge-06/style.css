@@ -1,0 +1,13 @@
+.background-img {
+    background-image: url(img/home.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.create-bg-color {
+    background-color: #4900D5;
+}
+
+.text-red {
+    color: red;
+}
