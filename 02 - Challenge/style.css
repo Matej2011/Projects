@@ -1,0 +1,276 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.prv-del {
+  background-color: rgba(39, 40, 51, 1);
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+.prv-del a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.prv-del li {
+  display: inline-block;
+  padding: 3px;
+}
+
+.del1 {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.prv-del ul {
+  float: right;
+  padding-right: 25px;
+}
+
+.fa-angle-down {
+  color: white;
+  position: absolute;
+  bottom: 1%;
+  right: 50%;
+  font-size: xxx-large;
+}
+
+.clear-both {
+  clear: both;
+}
+
+.last-child {
+  background-color: red;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.tittles {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.secondh4 {
+  margin-left: 28px;
+}
+
+.vtor-del {
+  background-image: url(./starter-files/images/picture1.jpg);
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.half-page {
+  border-top: solid #e44c65;
+  background-color: rgba(39, 40, 51, 0.85);
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  padding: 111px;
+}
+
+.tittle-p,
+.p2,
+.p3 {
+  color: white;
+  width: 30%;
+  font-size: large;
+}
+
+.tret-del {
+  background-image: url(./starter-files/images/picture2.jpeg);
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.tittle-p2 {
+  position: absolute;
+  background-color: rgba(39, 40, 51, 0.85);
+  color: white;
+  width: 30%;
+  padding: 30px;
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+  height: 92%;
+  align-items: baseline;
+  justify-content: center;
+  border-left: solid rgb(93, 93, 238);
+}
+
+.tittle-p2 a,
+.tittle-p3 a {
+  border: solid white;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  padding: 10px 30px;
+  font-size: small;
+}
+
+.cetvrti-del {
+  background-image: url(./starter-files/images/picture3.jpg);
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
+}
+
+.tittle-p3 {
+  position: absolute;
+  background-color: rgba(39, 40, 51, 0.85);
+  color: white;
+  width: 30%;
+  padding: 30px;
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+  height: 92%;
+  align-items: baseline;
+  justify-content: center;
+  border-right: solid rgb(45, 212, 81);
+}
+
+.petti-del,
+.sesti-del {
+  background-color: rgba(39, 40, 51, 1);
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+.tittle-p4 {
+  text-align: center;
+  padding-top: 50px;
+  color: white;
+}
+
+hr {
+  margin-left: 36%;
+  margin-right: 36%;
+  margin-top: 4%;
+  background-color: #e44c65;
+  border: solid #e44c65;
+}
+
+.fa-download,
+.fa-comment,
+.fa-flask-vial,
+.fa-paper-plane,
+.fa-copy,
+.fa-lock {
+  color: white;
+  font-size: xxx-large;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+}
+
+.first-row,
+.second-row {
+  color: white;
+  text-align: center;
+  width: 25%;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.btn1 {
+  background-color: rgba(39, 40, 51, 1);
+  border: solid white;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  align-items: center;
+}
+
+.red-page {
+  background-color: #e44c65;
+  min-height: 40vh;
+  position: absolute;
+  width: 100%;
+  top: 135px;
+}
+
+.txt {
+  color: white;
+  text-align: center;
+  margin-top: 77px;
+}
+
+.btn2 {
+  background-color: white;
+  color: #e44c65;
+  border: solid white;
+  border-radius: 5px;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+input {
+  padding: 10px 30px;
+  background-color: #e44c65;
+  border: solid white;
+  border-radius: 5px;
+}
+
+input::placeholder {
+  color: white;
+}
+
+input:focus {
+  outline: none;
+  color: white;
+}
+
+.font-a i {
+  color: white;
+  font-size: xx-large;
+  padding: 5px;
+}
+
+.font-a {
+  position: absolute;
+  bottom: 18%;
+  right: 42%;
+  text-align: center;
+}
+
+.font-a p {
+  color: white;
+  font-size: small;
+}
