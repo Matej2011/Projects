@@ -1,0 +1,32 @@
+.carousel-inner {
+  height: 550px;
+  position: relative;
+}
+
+.carousel-item {
+  height: 550px;
+}
+
+.carousel-caption {
+  top: 30%;
+}
+
+.bg-black {
+  background-color: black !important;
+}
+
+.footer {
+  background-color: black;
+}
+
+@media (max-width: 426px) {
+  img {
+    display: none;
+  }
+
+  
+
+  .carousel-item.active img {
+    height: 100%;
+  }
+}

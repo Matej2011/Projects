@@ -1,0 +1,77 @@
+.carousel-inner{
+    height: 550px;
+}
+
+.carousel-item{
+    height: 550px;
+}
+
+.carousel-caption{
+    top: 30%;
+}
+
+.bg-image-1{
+    background-image: url(../starter-files/imagecompressor/lights-min.jpg);
+    background-attachment: fixed;
+}
+
+.laptop-img img{
+    height: 300px;
+    width: 450px;
+}
+
+.bg-img-2{
+    background-image: url(../starter-files/imagecompressor/media-min.jpg);
+    background-attachment: fixed;
+}
+.bg-img-2 button{
+    border: none;
+    background-color: transparent;
+}
+
+.six-images img{
+    width: 300px;
+    height: 300px;
+}
+
+.footer{
+    background-color: black;
+}
+
+.nav-item.nav-link.active {
+    border-left: 2px solid white;
+}
+
+.modal-content iframe {
+    margin: 0 auto;
+    display: block;
+}
+
+@media only screen and (max-width: 768px) {
+    .laptop-img img {
+        height: 250px;
+        width: 350px;
+    }
+    .six-images img {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    #carouselExampleCaptions>div>div.carousel-item>img {
+        height: 600px;
+    }
+    .six-images img {
+        height: 300px;
+        width: 300px;
+        padding-bottom: 15px;
+    }
+    .six-images {
+        padding-left: 50px;
+    }
+    .form-group {
+        width: 100%;
+        padding: 0px!important;
+    }
+}

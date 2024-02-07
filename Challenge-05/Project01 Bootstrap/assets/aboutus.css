@@ -1,0 +1,50 @@
+.carousel-inner {
+  height: 550px;
+  position: relative;
+}
+
+.carousel-item {
+  height: 550px;
+}
+
+.carousel-caption {
+  top: 30%;
+}
+
+.aboutus-img img {
+  border-radius: 500px;
+  width: 350px;
+  z-index: 99;
+  top: -50px;
+  position: absolute;
+}
+
+.margin{
+    margin-top: 100px;
+}
+
+.card-body i{
+    font-size: 40px;
+    
+}
+
+.span{
+    color: grey;
+}
+
+.footer{
+    background-color: black;
+}
+
+
+@media(max-width: 426px){
+    img{
+        display: none;
+    }
+
+    .carousel-item.active img{
+       height: 100%
+    }
+
+  
+}

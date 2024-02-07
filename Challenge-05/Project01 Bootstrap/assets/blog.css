@@ -1,0 +1,38 @@
+.carousel-inner {
+  height: 550px;
+  position: relative;
+}
+
+.carousel-item {
+  height: 550px;
+}
+
+.carousel-caption {
+  top: 30%;
+}
+
+.card img {
+  max-width: 350px;
+  max-height: 200px;
+}
+
+.txt-white {
+  color: white;
+}
+
+.footer {
+  background-color: black;
+}
+
+@media (max-width: 426px) {
+  img {
+    display: none;
+  }
+
+  .carousel-item.active img {
+    height: 100%;
+  }
+}
+
+
+

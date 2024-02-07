@@ -1,0 +1,34 @@
+.uppercase {
+    text-transform: uppercase;
+}
+
+.carousel-inner {
+    height: 550px;
+    position: relative;
+  }
+  
+  .carousel-item {
+    height: 550px;
+  }
+  
+  .carousel-caption {
+    top: 30%;
+  }
+
+.footer {
+    background-color: black;
+}
+
+.nav-item.nav-link.active {
+    border-left: 2px solid white;
+}
+
+@media (max-width: 426px) {
+    img {
+      display: none;
+    }
+  
+    .carousel-item.active img {
+      height: 100%;
+    }
+  }
