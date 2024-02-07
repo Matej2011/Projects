@@ -1,0 +1,34 @@
+
+
+.navbar {
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid grey;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-container img {
+  width: 80px;
+  margin-left: 80px;
+  cursor: pointer;
+}
+
+.links-container {
+  display: flex;
+  width: 650px;
+  justify-content: space-between;
+  margin-right: 20px;
+  font-weight: bolder;
+}
+
+.link a {
+  text-decoration: none;
+  color: gray;
+}
+
+a:hover {
+  color: black;
+}
+

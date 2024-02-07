@@ -1,0 +1,36 @@
+{
+  "links": [
+    {
+      "label": "HOME",
+      "href": "#"
+    },
+    {
+      "label": "BIKES",
+      "href": "#"
+    },
+    {
+      "label": "GEAR",
+      "href": "#"
+    },
+    {
+      "label": "PARTS",
+      "href": "#"
+    },
+    {
+      "label": "TIRES",
+      "href": "#"
+    },
+    {
+      "label": "SERVICE-INFO",
+      "href": "#"
+    },
+    {
+      "label": "CATALOGUES",
+      "href": "#"
+    },
+    {
+      "label": "CONTACT",
+      "href": "#"
+    }
+  ]
+}
