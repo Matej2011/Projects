@@ -1,0 +1,104 @@
+/* Remove redundant font-family declarations */
+body,
+p {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Simplify anchor tag styles */
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+a:hover,
+a:focus {
+  color: inherit;
+}
+
+/* Simplify navbar styles */
+.navbar {
+  padding: 15px 10px;
+  background: #fff;
+  border: none;
+  border-radius: 0;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Simplify container styles */
+main > .container {
+  padding: 60px 15px 0;
+}
+
+/* Simplify sidebar styles */
+#sidebar {
+  min-width: 250px;
+  max-width: 250px;
+  background: #f04b5d;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+#sidebar.active {
+  margin-left: -250px;
+}
+
+#sidebar .sidebar-header {
+  padding: 20px;
+}
+
+#sidebar ul.components {
+  padding: 20px 0;
+  border-bottom: 1px solid #f04b5d;
+}
+
+#sidebar ul p {
+  padding: 10px;
+}
+
+#sidebar ul li a {
+  padding: 10px;
+  font-size: 1.1em;
+}
+
+#sidebar ul li a:hover {
+  color: #7386d5;
+  background: #fff;
+}
+
+#sidebar ul li.active > a,
+a[aria-expanded="true"] {
+  background: #f04b5d;
+}
+
+/* Simplify content styles */
+#content {
+  padding: 20px;
+  min-height: 100vh;
+  transition: all 0.3s;
+}
+
+/* Simplify media queries*/
+@media (max-width: 768px) {
+  #sidebar {
+    margin-left: -250px;
+  }
+  #sidebar.active {
+    margin-left: 0;
+  }
+  #sidebarCollapse span {
+    display: none;
+  }
+} 
+
+/* Simplify button styles */
+#sidebarCollapse {
+  background: #f04b5d;
+  color: white;
+}
+
+#submit-id-submit {
+  background: #f04b5d;
+  color: white;
+  border-color: #f04b5d;
+}
